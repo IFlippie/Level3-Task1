@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">Level3-Task1</string>
+    <string name="app_name">Create your Profile</string>
     <string name="name">%1$s %2$s</string>
+    <string name="welcome_Message">Welcome</string>
+    <string name="profile_Title">This is your profile!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="description">Description</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="confirm">Confirm</string>
 </resources>

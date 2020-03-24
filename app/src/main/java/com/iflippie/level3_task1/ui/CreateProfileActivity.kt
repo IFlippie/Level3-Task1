@@ -1,4 +1,4 @@
-package com.iflippie.level3_task1
+package com.iflippie.level3_task1.ui
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -6,6 +6,8 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.iflippie.level3_task1.R
+import com.iflippie.level3_task1.model.Profile
 import kotlinx.android.synthetic.main.activity_create_profile.*
 
 const val GALLERY_REQUEST_CODE = 100
@@ -47,7 +49,9 @@ class CreateProfileActivity : AppCompatActivity() {
         galleryIntent.type = "image/*"
 
         // Start the activity using the gallery intent
-        startActivityForResult(galleryIntent, GALLERY_REQUEST_CODE)
+        startActivityForResult(galleryIntent,
+            GALLERY_REQUEST_CODE
+        )
     }
 
     @SuppressLint("MissingSuperCall")

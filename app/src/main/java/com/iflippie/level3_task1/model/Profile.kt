@@ -1,4 +1,4 @@
-package com.iflippie.level3_task1
+package com.iflippie.level3_task1.model
 
 import android.net.Uri
 import android.os.Parcelable

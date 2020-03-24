@@ -1,8 +1,10 @@
-package com.iflippie.level3_task1
+package com.iflippie.level3_task1.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import com.iflippie.level3_task1.R
+import com.iflippie.level3_task1.model.Profile
 import kotlinx.android.synthetic.main.activity_profile.*
 
 class ProfileActivity : AppCompatActivity() {
@@ -15,7 +17,7 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun initViews() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = "This is your profile!"
+        supportActionBar?.title = getString(R.string.profile_Title)
         val profile = intent.getParcelableExtra<Profile>(PROFILE_EXTRA)
 
         if (profile != null) {

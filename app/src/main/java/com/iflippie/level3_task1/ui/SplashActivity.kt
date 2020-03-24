@@ -1,9 +1,10 @@
-package com.iflippie.level3_task1
+package com.iflippie.level3_task1.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.iflippie.level3_task1.R
 
 class SplashActivity : AppCompatActivity() {
 
